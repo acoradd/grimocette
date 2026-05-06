@@ -1,0 +1,7 @@
+package fr.accoradd.cook
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
